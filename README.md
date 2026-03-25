@@ -48,15 +48,22 @@
   ```bash
   git clone https://github.com/artist1016/QAsystem-knowledge-graph.git
   cd QAsystem-knowledge-graph
+  ```
 #### 2. 安装Python依赖
+  ```bash
   pip install -r requirements.txt
+  ```
 #### 3. 配置Neo4j
   启动本地Neo4j服务（默认端口7687）
   修改 config.py 中的Neo4j连接信息（用户名/密码） 
 #### 4. 初始化知识图谱
+  ```bash
   python build_graph.py   # 根据预处理数据构建图谱
+  ```
 #### 5. 启动Web服务
+  ```bash
   python app.py
+  ```
 #### 6. 访问
   打开浏览器访问 http://127.0.0.1:5000
 
