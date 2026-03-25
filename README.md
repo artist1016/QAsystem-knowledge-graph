@@ -68,33 +68,33 @@
   打开浏览器访问 http://127.0.0.1:5000
 
 ## 📁 项目结构
-knowledge-graph-qa/
-├── app.py                 # Flask应用主入口
-├── build_graph.py         # 知识图谱构建脚本
-├── config.py              # 配置文件
-├── requirements.txt       # Python依赖
-├── data/                  # 原始数据及预处理脚本
-│   └── emergency_data.csv
-├── models/                # 问句分类与语义解析模块
-│   ├── classifier.py      # AC算法分类器
-│   └── query_builder.py   # Cypher查询生成
-├── static/                # 前端静态文件 (CSS, JS)
-├── templates/             # HTML模板
-│   └── index.html
-└── README.md
+    QAsystem-knowledge-graph/
+    ├── app.py                 # Flask应用主入口
+    ├── build_graph.py         # 知识图谱构建脚本
+    ├── config.py              # 配置文件
+    ├── requirements.txt       # Python依赖
+    ├── data/                  # 原始数据及预处理脚本
+    │   └── emergency_data.csv
+    ├── models/                # 问句分类与语义解析模块
+    │   ├── classifier.py      # AC算法分类器
+    │   └── query_builder.py   # Cypher查询生成
+    ├── static/                # 前端静态文件 (CSS, JS)
+    ├── templates/             # HTML模板
+    │   └── index.html
+    └── README.md
 
 ## 📈 性能指标
-知识图谱规模：300+实体，400+关系
-平均查询响应：0.30秒
-代码总量：1201行（Python 630行，前端 571行）
+  知识图谱规模：300+实体，400+关系  
+  平均查询响应：0.30秒  
+  代码总量：1201行（Python 630行，前端 571行）  
 
 ## 🔮 后续展望
-图谱扩展：接入更多专业应急数据库，丰富实体与关系
-多模态支持：增加图像识别、语音输入等交互方式
-语义增强：引入预训练模型提升复杂问句的理解能力
-高并发优化：使用异步框架（如FastAPI）提高吞吐量
+  图谱扩展：接入更多专业应急数据库，丰富实体与关系  
+  多模态支持：增加图像识别、语音输入等交互方式  
+  语义增强：引入预训练模型提升复杂问句的理解能力  
+  高并发优化：使用异步框架（如FastAPI）提高吞吐量  
 
 ## 👨‍💻 作者
-Dai Yi - BJTU 
-邮箱：1137251662@qq.com
-GitHub：artist1016
+ Dai Yi - BJTU   
+ 邮箱：1137251662@qq.com  
+ GitHub：artist1016  
